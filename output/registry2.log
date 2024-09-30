@@ -1,0 +1,11 @@
+2024/08/04 14:11:07 main.go:40: Loading service type: RegistryService
+JoinChord called with name: ChordNotRoot8503, rootNodeName: ChordRoot, port: 1099
+ChordNotRoot8503 - Joined Chord Successfully
+2024/08/04 14:11:07 Chord joined successfully
+2024/08/04 14:11:07 is first: false
+2024/08/04 14:11:07 RegistryService listening at [::]:8503
+getAllKeys returns [CacheService]
+Search CacheService 110110100110110100101
+value is [Ljava.lang.String;@414e8964
+key/value: CacheService / [Ljava.lang.String;@17fa02a has been added.
+2024/08/04 14:11:28 Registered CacheService at [::]:1001

@@ -1,0 +1,11 @@
+2024/08/04 14:11:12 main.go:40: Loading service type: RegistryService
+JoinChord called with name: ChordNotRoot8504, rootNodeName: ChordRoot, port: 1099
+ChordNotRoot8504 - Joined Chord Successfully
+2024/08/04 14:11:12 Chord joined successfully
+2024/08/04 14:11:12 is first: false
+2024/08/04 14:11:12 RegistryService listening at [::]:8504
+getAllKeys returns [TestServiceMQ, TestService, CacheService]
+Search TestService 001111101011101011000
+value is [Ljava.lang.String;@62f17310
+key/value: TestService / [Ljava.lang.String;@23a112cf has been added.
+2024/08/04 14:11:47 Registered TestService at [::]:38713

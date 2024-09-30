@@ -1,0 +1,5 @@
+type: RegistryService
+port: 8502
+isAliveCheckInterval: 10
+chordPort : 1099
+chordNodeName : ChordRoot

@@ -1,0 +1,15 @@
+2024/08/04 14:11:17 main.go:49: Loading service type: CacheService
+4000
+ChordRoot - Created Chord Successfully
+2024/08/04 14:11:17 Chord initialized successfully
+Service CacheService is listening at port 1000
+2024/08/04 14:11:17 CacheService registered at [::]:1000
++++ jdk xcall_params_ret 0x2a84770 0x2e0fad0 0xc000015550
++++ jdk xcall_params_ret 0x2aa1ad0 0x7f4b500017c0 0xc000286198
++++ jdk xcall_params_ret 0x2aa1ad0 0x7f4b500017c0 0xc000306128
++++ jdk xcall_params_ret 0x2aa1ad0 0x2e0fad0 0xc000015c78
++++ jdk xcall_params_ret 0x2aa1ad0 0x2e0fad0 0xc000015d08
++++ jdk xcall_params_ret 0x2aa1ad0 0x7f4a88001660 0xc0003062e8
++++ jdk xcall_params_ret 0x2aa1ad0 0x7f4b500017c0 0xc000015db8
++++ jdk xcall_params_ret 0x2aa1ad0 0x7f4b500017c0 0xc000015e48
++++ jdk xcall_params_re

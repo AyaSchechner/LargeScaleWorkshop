@@ -1,0 +1,15 @@
+2024/08/04 14:11:27 main.go:49: Loading service type: CacheService
+JoinChord called with name: ChordNode1001, rootNodeName: ChordRoot, port: 4000
+ChordNode1001 - Joined Chord Successfully
+2024/08/04 14:11:27 Chord joined successfully
+Service CacheService is listening at port 1001
+2024/08/04 14:11:28 CacheService registered at [::]:1001
++++ jdk xcall_params_ret 0x1adcba0 0x1e5fa00 0xc00020b508
++++ jdk xcall_params_ret 0x1af19e0 0x7fc04c001660 0xc0000143e8
++++ jdk xcall_params_ret 0x1af19e0 0x7fc048001660 0xc000014528
++++ jdk xcall_params_ret 0x1af19e0 0x7fc0500017c0 0xc0001282f8
++++ jdk xcall_params_ret 0x1af19e0 0x7fc0500017c0 0xc00020bb98
++++ jdk xcall_params_ret 0x1af19e0 0x7fc0500017c0 0xc00020bca8
++++ jdk xcall_params_ret 0x1af19e0 0x7fc0500017c0 0xc00030e058
++++ jdk xcall_params_ret 0x1af19e0 0x7fc0500017c0 0xc00030e0e8
++++ jdk xcall

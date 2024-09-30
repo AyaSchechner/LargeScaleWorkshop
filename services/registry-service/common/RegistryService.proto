@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option go_package = "RegistryService";
+
+package registryservice;
+
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/empty.proto";
+
+// Define a message type for the request
+message RegisterRequest {
+    string service_name = 1;
+    string node_address = 2;
+}
+
+message UnregisterRequest {
+    string service_name = 1;
+    string node_address = 2;
+}
+
+message DiscoverRequest {
+    string service_name = 1;
+}
+
+message DiscoverResponse {
+    repeated string node_addresses = 1;
+}
+
+// Define the RegistryService service
+service RegistryService {
+    // Register a service
+    rpc Register(RegisterRequest) returns (google.protobuf.Empty);
+
+    // Unregister a service
+    rpc Unregister(UnregisterRequest) returns (google.protobuf.Empty);
+
+    // Discover node addresses for a service
+    rpc Discover(DiscoverRequest) returns (DiscoverResponse);
+
+    // returns true
+    rpc IsAlive(google.protobuf.Empty) returns (google.protobuf.BoolValue);
+}

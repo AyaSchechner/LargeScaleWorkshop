@@ -1,0 +1,16 @@
+syntax = "proto3";
+package common;
+
+// method - name of method that should be called
+// data - serialized protobuf message
+message CallParameters {
+    string method = 1;
+    bytes data = 2;
+}
+
+// data - serialized protobuf return values message
+// error - error message. Empty in case no error
+message ReturnValue {
+    bytes data = 1;
+    string error = 2;
+}

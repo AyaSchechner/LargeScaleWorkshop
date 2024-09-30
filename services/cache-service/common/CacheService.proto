@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option go_package = "CacheService";
+package cacheservice;
+
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/empty.proto";
+
+// Define a message type for the request
+message StoreKeyValue {
+    string key = 1;
+    string value = 2;
+}
+
+// Define the CacheService service
+service CacheService {
+    // Stores a key/value pair in the cache
+    rpc Set(StoreKeyValue) returns (google.protobuf.Empty);
+    
+    // Retrieves the value for a given key from the cache
+    rpc Get(google.protobuf.StringValue) returns (google.protobuf.StringValue);
+    
+    // Deletes a key/value pair from the cache
+    rpc Delete(google.protobuf.StringValue) returns (google.protobuf.Empty);
+    
+    // Checks if the service is alive
+    rpc IsAlive(google.protobuf.Empty) returns (google.protobuf.BoolValue);
+}

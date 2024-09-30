@@ -1,0 +1,6 @@
+2024/08/04 14:11:37 main.go:49: Loading service type: CacheService
+JoinChord called with name: ChordNode1002, rootNodeName: ChordRoot, port: 4000
+ChordNode1002 - Joined Chord Successfully
+2024/08/04 14:11:37 Chord joined successfully
+Service CacheService is listening at port 1002
+2024/08/04 14:11:37 CacheService registered at [::]:1002

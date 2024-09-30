@@ -1,0 +1,255 @@
+2024/08/04 14:11:02 main.go:40: Loading service type: RegistryService
+1099
+ChordRoot - Created Chord Successfully
+2024/08/04 14:11:03 Chord initialized successfully
+2024/08/04 14:11:03 is first: true
+2024/08/04 14:11:03 RegistryService listening at [::]:8502
+getAllKeys returns []
+2024/08/04 14:11:13 GetAllKeys returned servicesList: []
+getAllKeys returns []
+key/value: CacheService / [Ljava.lang.String;@5ab99491 has been added.
+2024/08/04 14:11:17 Registered CacheService at [::]:1000
+getAllKeys returns [CacheService]
+2024/08/04 14:11:23 GetAllKeys returned servicesList: [CacheService]
+Search CacheService 110110100110110100101
+value is [Ljava.lang.String;@535d8a5f
+2024/08/04 14:11:23 Checking health of CacheService at [::]:1000
+2024/08/04 14:11:23 handleSuccess: CacheService [::]:1000
+getAllKeys returns [CacheService]
+2024/08/04 14:11:33 GetAllKeys returned servicesList: [CacheService]
++++ jdk xcall_params_ret 0x1b5c770 0x1ee7ad0 0xc000130e70
++++ jdk xcall_params_ret 0x1b79ad0 0x1ee7ad0 0xc000130eb0
++++ jdk xcall_params_ret 0x1b799e0 0x7ff52c001660 0xc000130f30
++++ jdk xcall_params_ret 0x1b799e0 0x7ff52c001660 0xc000184710
++++ jdk xcall_params_no_ret 0x1b795d0 0x7ff52c001660 0xc000184718
++++ jdk xcall_params_ret 0x1b799e0 0x7ff52c001660 0xc000184810
++++ jdk xcall_params_ret 0x1b79770 0x7ff52c001660 0xc00030c028
++++ jdk xcall_params_ret 0x1b799e0 0x7ff52c001660 0xc00030c110
++++ jdk xcall_pSearch CacheService 110110100110110100101
+value is [Ljava.lang.String;@68bd28d9
+2024/08/04 14:11:33 Checking health of CacheService at [::]:1000
+2024/08/04 14:11:33 Checking health of CacheService at [::]:1001
+2024/08/04 14:11:33 handleSuccess: CacheService [::]:1000
+2024/08/04 14:11:33 handleSuccess: CacheService [::]:1001
+getAllKeys returns [CacheService]
+Search CacheService 110110100110110100101
+value is [Ljava.lang.String;@c2e1f26
+key/value: CacheService / [Ljava.lang.String;@7dc5e7b4 has been added.
+2024/08/04 14:11:37 Registered CacheService at [::]:1002
+getAllKeys returns [CacheService]
+key/value: TestService / [Ljava.lang.String;@24205030 has been added.
+2024/08/04 14:11:42 Registered TestService at [::]:40701
+getAllKeys returns [TestService, CacheService]
+key/value: TestServiceMQ / [Ljava.lang.String;@2b468e9b has been added.
+2024/08/04 14:11:42 Registered TestServiceMQ at tcp://127.0.0.1:39759@[::]:40701
+arams_ret 0x1b79770 0x7ff52c001660 0xc000184a30
++++ jdk xcall_params_ret 0x1b799e0 0x1ee7ad0 0xc000184e28
++++ jdk xcall_params_ret 0x1b79770 0x1ee7ad0 0xc000184e70
++++ jdk xcall_params_no_ret 0x1b795d0 0x1ee7ad0 0xc000184e78
++++ jdk xcall_params_ret 0x1b799e0 0x7ff444001660 0xc000184ee8
++++ jdk xcall_params_no_ret 0x1b795d0 0x7ff444001660 0xc000184f30
++++ jdk xcall_params_ret 0x1b799e0 0x7ff52c001660 0xc000131140
++++ jdk xcall_params_no_ret 0x1b795d0 0x7ff52c001660 0xc000131148
++++ jdk xcall_params_ret 0x1bgetAllKeys returns [TestServiceMQ, TestService, CacheService]
+2024/08/04 14:11:43 GetAllKeys returned servicesList: [TestServiceMQ TestService CacheService]
+Search TestServiceMQ 110010101111111011001
+value is [Ljava.lang.String;@1160f912
+2024/08/04 14:11:43 Checking health of TestServiceMQ at tcp://127.0.0.1:39759@[::]:40701
+Search TestService 001111101011101011000
+value is [Ljava.lang.String;@24205030
+2024/08/04 14:11:43 Checking health of TestService at [::]:40701
+2024/08/04 14:11:43 handleSuccess: TestService [::]:40701
+Search CacheService 110110100110110100101
+value is [Ljava.lang.String;@13b6d0ab
+2024/08/04 14:11:43 Checking health of CacheService at [::]:1000
+2024/08/04 14:11:43 Checking health of CacheService at [::]:1001
+2024/08/04 14:11:43 Checking health of CacheService at [::]:1002
+2024/08/04 14:11:43 handleSuccess: CacheService [::]:1000
+2024/08/04 14:11:43 handleSuccess: CacheService [::]:1001
+2024/08/04 14:11:43 handleSuccess: CacheService [::]:1002
+getAllKeys returns [TestServiceMQ, TestService, CacheService]
+Search TestServiceMQ 110010101111111011001
+value is [Ljava.lang.String;@3567de9f
+key/value: TestServiceMQ / [Ljava.lang.String;@1805d518 has been added.
+2024/08/04 14:11:47 Registered TestServiceMQ at tcp://127.0.0.1:41403@[::]:38713
+getAllKeys returns [TestServiceMQ, TestService, CacheService]
+799e0 0x7ff52c001660 0xc0001311c8
++++ jdk xcall_params_ret 0x1b79770 0x7ff52c001660 0xc000131240
++++ jdk xcall_params_ret 0x1b79770 0x7ff52c001660 0xc00030c250
++++ jdk xcall_params_ret 0x1b79770 0x7ff52c001660 0xc00030c258
++++ jdk xcall_params_ret 0x1b799e0 0x7ff438001660 0xc0001856b0
++++ jdk xcall_params_ret 0x1b79770 0x7ff438001660 0xc0001856b8
++++ jdk xcall_params_no_ret 0x1b795d0 0x7ff438001660 0xc000185720
++++ jdk xcall_params_ret 0x1b799e0 0x7ff444001660 0xc0001857b0
++++ jdk xcall_params_ret 0x1b79770Search TestService 001111101011101011000
+value is [Ljava.lang.String;@6d63f94f
+key/value: TestService / [Ljava.lang.String;@42e0d207 has been added.
+2024/08/04 14:11:52 Registered TestService at [::]:39807
+getAllKeys returns [TestServiceMQ, TestService, CacheService]
+Search TestServiceMQ 110010101111111011001
+value is [Ljava.lang.String;@1c4af82c
+key/value: TestServiceMQ / [Ljava.lang.String;@5e265ba4 has been added.
+2024/08/04 14:11:52 Registered TestServiceMQ at tcp://127.0.0.1:44895@[::]:39807
+getAllKeys returns [TestServiceMQ, TestService, CacheService]
+2024/08/04 14:11:53 GetAllKeys returned servicesList: [TestServiceMQ TestService CacheService]
+Search TestServiceMQ 110010101111111011001
+value is [Ljava.lang.String;@53bd815b
+2024/08/04 14:11:53 Checking health of TestServiceMQ at tcp://127.0.0.1:39759@[::]:40701
+2024/08/04 14:11:53 Checking health of TestServiceMQ at tcp://127.0.0.1:41403@[::]:38713
+2024/08/04 14:11:53 Checking health of TestServiceMQ at tcp://127.0.0.1:44895@[::]:39807
+Search TestService 001111101011101011000
+value is [Ljava.lang.String;@42e0d207
+2024/08/04 14:11:53 Checking health of TestService at [::]:40701
+2024/08/04 14:11:53 Checking health of TestService at [::]:38713
+2024/08/04 14:11:53 Checking health of TestService at [::]:39807
+2024/08/04 14:11:53 handleSuccess: TestService [::]:39807
+2024/08/04 14:11:53 handleSuccess: TestService [::]:40701
+2024/08/04 14:11:53 handleSuccess: TestService [::]:38713
+Search CacheService 110110100110110100101
+value is [Ljava.lang.String;@4926097b
+2024/08/04 14:11:53 Checking health of CacheService at [::]:1000
+2024/08/04 14:11:53 Checking health of CacheService at [::]:1001
+2024/08/04 14:11:53 Checking health of CacheService at [::]:1002
+2024/08/04 14:11:53 handleSuccess: CacheService [::]:1000
+2024/08/04 14:11:53 handleSuccess: CacheService [::]:1001
+2024/08/04 14:11:53 handleSuccess: CacheService [::]:1002
+ 0x7ff444001660 0xc0001857b8
++++ jdk xcall_params_no_ret 0x1b795d0 0x7ff444001660 0xc000185820
++++ jdk xcall_params_ret 0x1b799e0 0x1ee7ad0 0xc000014b08
++++ jdk xcall_params_ret 0x1b79770 0x1ee7ad0 0xc000014b80
++++ jdk xcall_params_no_ret 0x1b795d0 0x1ee7ad0 0xc000014b88
++++ jdk xcall_params_ret 0x1b799e0 0x1ee7ad0 0xc000014bc8
++++ jdk xcall_params_ret 0x1b79770 0x1ee7ad0 0xc000014c40
++++ jdk xcall_params_ret 0x1b79770 0x1ee7ad0 0xc000014c48
++++ jdk xcall_params_ret 0x1b79770 0x1ee7ad0 0xc00032a000
++++ jdk getAllKeys returns [TestServiceMQ, TestService, CacheService]
+2024/08/04 14:12:03 GetAllKeys returned servicesList: [TestServiceMQ TestService CacheService]
+Search TestServiceMQ 110010101111111011001
+value is [Ljava.lang.String;@6c8804a5
+2024/08/04 14:12:03 Checking health of TestServiceMQ at tcp://127.0.0.1:39759@[::]:40701
+2024/08/04 14:12:03 Checking health of TestServiceMQ at tcp://127.0.0.1:41403@[::]:38713
+2024/08/04 14:12:03 Checking health of TestServiceMQ at tcp://127.0.0.1:44895@[::]:39807
+Search TestService 001111101011101011000
+value is [Ljava.lang.String;@42e0d207
+2024/08/04 14:12:03 Checking health of TestService at [::]:40701
+2024/08/04 14:12:03 Checking health of TestService at [::]:38713
+2024/08/04 14:12:03 Checking health of TestService at [::]:39807
+2024/08/04 14:12:03 handleSuccess: TestService [::]:39807
+2024/08/04 14:12:03 handleSuccess: TestService [::]:40701
+2024/08/04 14:12:03 handleSuccess: TestService [::]:38713
+Search CacheService 110110100110110100101
+value is [Ljava.lang.String;@ee5d62c
+2024/08/04 14:12:03 Checking health of CacheService at [::]:1000
+2024/08/04 14:12:03 Checking health of CacheService at [::]:1001
+2024/08/04 14:12:03 Checking health of CacheService at [::]:1002
+2024/08/04 14:12:03 handleSuccess: CacheService [::]:1002
+2024/08/04 14:12:03 handleSuccess: CacheService [::]:1001
+2024/08/04 14:12:03 handleSuccess: CacheService [::]:1000
+getAllKeys returns [TestServiceMQ, TestService, CacheService]
+2024/08/04 14:12:13 GetAllKeys returned servicesList: [TestServiceMQ TestService CacheService]
+Search TestServiceMQ 110010101111111011001
+value is [Ljava.lang.String;@66ef1a35
+2024/08/04 14:12:13 Checking health of TestServiceMQ at tcp://127.0.0.1:39759@[::]:40701
+2024/08/04 14:12:13 Checking health of TestServiceMQ at tcp://127.0.0.1:41403@[::]:38713
+2024/08/04 14:12:13 Checking health of TestServiceMQ at tcp://127.0.0.1:44895@[::]:39807
+Search TestService 001111101011101011000
+value is [Ljava.lang.String;@42e0d207
+2024/08/04 14:12:13 Checking health of TestService at [::]:40701
+2024/08/04 14:12:13 Checking health of TestService at [::]:38713
+2024/08/04 14:12:13 Checking health of TestService at [::]:39807
+2024/08/04 14:12:13 handleSuccess: TestService [::]:38713
+2024/08/04 14:12:13 handleSuccess: TestService [::]:39807
+2024/08/04 14:12:13 handleSuccess: TestService [::]:40701
+Search CacheService 110110100110110100101
+value is [Ljava.lang.String;@5b3f0b28
+2024/08/04 14:12:13 Checking health of CacheService at [::]:1000
+2024/08/04 14:12:13 Checking health of CacheService at [::]:1001
+2024/08/04 14:12:13 Checking health of CacheService at [::]:1002
+2024/08/04 14:12:13 handleSuccess: CacheService [::]:1000
+2024/08/04 14:12:13 handleSuccess: CacheService [::]:1001
+2024/08/04 14:12:13 handleSuccess: CacheService [::]:1002
+xcall_params_ret 0x1b799e0 0x7ff528001960 0xc00032a450
++++ jdk xcall_params_ret 0x1b79770 0x7ff528001960 0xc00032a458
++++ jdk xcall_params_ret 0x1b79770 0x7ff528001960 0xc00032a4c0
++++ jdk xcall_params_ret 0x1b79770 0x7ff430001660 0xc000014920
++++ jdk xcall_params_ret 0x1b799e0 0x7ff438001660 0xc00048c000
++++ jdk xcall_params_ret 0x1b79770 0x7ff438001660 0xc00048c080
++++ jdk xcall_params_ret 0x1b79770 0x7ff5200018a0 0xc00032a1c0
++++ jdk xcall_params_ret 0x1b79770 0x7ff5200018a0 0xc00032a1c8
++++ jdk xcall_pagetAllKeys returns [TestServiceMQ, TestService, CacheService]
+2024/08/04 14:12:23 GetAllKeys returned servicesList: [TestServiceMQ TestService CacheService]
+Search TestServiceMQ 110010101111111011001
+value is [Ljava.lang.String;@6c756c37
+2024/08/04 14:12:23 Checking health of TestServiceMQ at tcp://127.0.0.1:39759@[::]:40701
+2024/08/04 14:12:23 Checking health of TestServiceMQ at tcp://127.0.0.1:41403@[::]:38713
+2024/08/04 14:12:23 Checking health of TestServiceMQ at tcp://127.0.0.1:44895@[::]:39807
+Search TestService 001111101011101011000
+value is [Ljava.lang.String;@42e0d207
+2024/08/04 14:12:23 Checking health of TestService at [::]:40701
+2024/08/04 14:12:23 Checking health of TestService at [::]:38713
+2024/08/04 14:12:23 Checking health of TestService at [::]:39807
+2024/08/04 14:12:23 handleSuccess: TestService [::]:38713
+2024/08/04 14:12:23 handleSuccess: TestService [::]:40701
+2024/08/04 14:12:23 handleSuccess: TestService [::]:39807
+Search CacheService 110110100110110100101
+value is [Ljava.lang.String;@7e87cffe
+2024/08/04 14:12:23 Checking health of CacheService at [::]:1000
+2024/08/04 14:12:23 Checking health of CacheService at [::]:1001
+2024/08/04 14:12:23 Checking health of CacheService at [::]:1002
+2024/08/04 14:12:23 handleSuccess: CacheService [::]:1001
+2024/08/04 14:12:23 handleSuccess: CacheService [::]:1000
+2024/08/04 14:12:23 handleSuccess: CacheService [::]:1002
+getAllKeys returns [TestServiceMQ, TestService, CacheService]
+2024/08/04 14:12:33 GetAllKeys returned servicesList: [TestServiceMQ TestService CacheService]
+Search TestServiceMQ 110010101111111011001
+value is [Ljava.lang.String;@325af52c
+2024/08/04 14:12:33 Checking health of TestServiceMQ at tcp://127.0.0.1:39759@[::]:40701
+2024/08/04 14:12:33 Checking health of TestServiceMQ at tcp://127.0.0.1:41403@[::]:38713
+2024/08/04 14:12:33 Checking health of TestServiceMQ at tcp://127.0.0.1:44895@[::]:39807
+Search TestService 001111101011101011000
+value is [Ljava.lang.String;@42e0d207
+2024/08/04 14:12:33 Checking health of TestService at [::]:40701
+2024/08/04 14:12:33 Checking health of TestService at [::]:38713
+2024/08/04 14:12:33 Checking health of TestService at [::]:39807
+2024/08/04 14:12:33 handleSuccess: TestService [::]:39807
+2024/08/04 14:12:33 handleSuccess: TestService [::]:40701
+2024/08/04 14:12:33 handleSuccess: TestService [::]:38713
+Search CacheService 110110100110110100101
+value is [Ljava.lang.String;@78bf4bd
+2024/08/04 14:12:33 Checking health of CacheService at [::]:1000
+2024/08/04 14:12:33 Checking health of CacheService at [::]:1001
+2024/08/04 14:12:33 Checking health of CacheService at [::]:1002
+2024/08/04 14:12:33 handleSuccess: CacheService [::]:1002
+2024/08/04 14:12:33 handleSuccess: CacheService [::]:1000
+2024/08/04 14:12:33 handleSuccess: CacheService [::]:1001
+rams_ret 0x1b799e0 0x7ff428001660 0xc0001300c0
++++ jdk xcall_params_ret 0x1b79770 0x7ff428001660 0xc0001301d0
++++ jdk xcall_params_ret 0x1b79770 0x7ff428001660 0xc00030c8f8
++++ jdk xcall_params_ret 0x1b79770 0x7ff428001660 0xc00030c900
++++ jdk xcall_params_ret 0x1b799e0 0x7ff430001660 0xc0000145a8
++++ jdk xcall_params_ret 0x1b79770 0x7ff430001660 0xc000014670
++++ jdk xcall_params_ret 0x1b79770 0x7ff430001660 0xc00048c190
++++ jdk xcall_params_ret 0x1b79770 0x7ff430001660 0xc00048c198
++++ jdk xcall_params_retgetAllKeys returns [TestServiceMQ, TestService, CacheService]
+2024/08/04 14:12:43 GetAllKeys returned servicesList: [TestServiceMQ TestService CacheService]
+Search TestServiceMQ 110010101111111011001
+value is [Ljava.lang.String;@3c9f0185
+2024/08/04 14:12:43 Checking health of TestServiceMQ at tcp://127.0.0.1:39759@[::]:40701
+2024/08/04 14:12:43 Checking health of TestServiceMQ at tcp://127.0.0.1:41403@[::]:38713
+2024/08/04 14:12:43 Checking health of TestServiceMQ at tcp://127.0.0.1:44895@[::]:39807
+Search TestService 001111101011101011000
+value is [Ljava.lang.String;@42e0d207
+2024/08/04 14:12:43 Checking health of TestService at [::]:40701
+2024/08/04 14:12:43 Checking health of TestService at [::]:38713
+2024/08/04 14:12:43 Checking health of TestService at [::]:39807
+2024/08/04 14:12:43 handleSuccess: TestService [::]:40701
+2024/08/04 14:12:43 handleSuccess: TestService [::]:38713
+2024/08/04 14:12:43 handleSuccess: TestService [::]:39807
+Search CacheService 110110100110110100101
+value is [Ljava.lang.String;@f81f860
+2024/08/04 14:12:43 Checking health of CacheService at [::]:1000
+2024/08/04 14:12:43 Checking health of CacheService at [::]:1001
+2024/08/04 14:12:43 Checking health of CacheService at [::]:1002
+2024/08/04 14:12:43 handleSuccess: CacheService [::]:1000
+2024/08/04 14:12:43 handleSuccess: CacheService [::]:1002
+2024/08/04 14:12:43 handleSuccess: CacheService [::]:1001

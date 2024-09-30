@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+option go_package = "TestService";
+
+package testservice;
+
+// Import the necessary types for streaming and callback
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/empty.proto";
+
+// Define a message type for the request
+message StoreKeyValue {
+    string key = 1;
+    string value = 2;
+}
+
+message ExtractLinksFromURLParameters{
+    string url = 1;
+    int32 depth = 2;
+}
+
+message ExtractLinksFromURLReturnedValue{
+    repeated string links = 1;
+}
+
+// Define the TestService service
+service TestService {
+    // returns "Hello World"
+    rpc HelloWorld(google.protobuf.Empty) returns (google.protobuf.StringValue);
+    
+    // receives user name, return "Hello [user name]"
+    rpc HelloToUser(google.protobuf.StringValue) returns (google.protobuf.StringValue);
+    
+    // receives key/value pair and stores it in a map
+    rpc Store(StoreKeyValue) returns (google.protobuf.Empty);
+
+    // returns value for a given key from the map
+    rpc Get(google.protobuf.StringValue) returns (google.protobuf.StringValue);
+    
+    // Wait given number of seconds and return random number
+    // async function
+    rpc WaitAndRand(google.protobuf.Int32Value) returns (stream google.protobuf.Int32Value);
+ 
+    // extracts links from URL using beautiful soup
+    rpc ExtractLinksFromURL(ExtractLinksFromURLParameters) returns (ExtractLinksFromURLReturnedValue);
+ 
+    // returns true
+    rpc IsAlive(google.protobuf.Empty) returns (google.protobuf.BoolValue);
+}

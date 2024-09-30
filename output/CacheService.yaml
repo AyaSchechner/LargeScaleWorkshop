@@ -1,0 +1,6 @@
+type: "CacheService"
+registryAddress: "127.0.0.1:8502"
+regNum: 2
+port: 1000
+chordPort : 4000
+chordNodeName : ChordRoot

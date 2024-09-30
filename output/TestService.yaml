@@ -1,0 +1,3 @@
+type: "TestService"
+registryAddress: "127.0.0.1:8502"
+regNum: 3
